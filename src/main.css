@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'HKGrotesk-Regular';
+  src: url('./static/fonts/grotesk/HKGrotesk-Regular.woff2') format('woff2'),
+       url('./static/fonts/grotesk/HKGrotesk-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'HKGrotesk-Bold';
+  src: url('./static/fonts/grotesk/HKGrotesk-Bold.woff2') format('woff2'),
+       url('./static/fonts/grotesk/HKGrotesk-Bold.woff') format('woff');
+}
+
+
+.font-grotesk-regular {
+  font-family: 'HKGrotesk-Regular';
+}
+
+.font-grotesk-bold {
+  font-family: 'HKGrotesk-Bold';
+}
+
+.bg-odd-hero {
+  background-image: url('./static/odd-bg.png');
+}
