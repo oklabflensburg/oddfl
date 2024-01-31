@@ -2,29 +2,32 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
 @font-face {
-  font-family: 'HKGrotesk-Regular';
-  src: url('./static/fonts/grotesk/HKGrotesk-Regular.woff2') format('woff2'),
-       url('./static/fonts/grotesk/HKGrotesk-Regular.woff') format('woff');
+  font-family: HKGrotesk-Regular;
+  src:
+    url("./static/fonts/grotesk/HKGrotesk-Regular.woff2") format("woff2"),
+    url("./static/fonts/grotesk/HKGrotesk-Regular.woff") format("woff");
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'HKGrotesk-Bold';
-  src: url('./static/fonts/grotesk/HKGrotesk-Bold.woff2') format('woff2'),
-       url('./static/fonts/grotesk/HKGrotesk-Bold.woff') format('woff');
+  font-family: HKGrotesk-Bold;
+  src:
+    url("./static/fonts/grotesk/HKGrotesk-Bold.woff2") format("woff2"),
+    url("./static/fonts/grotesk/HKGrotesk-Bold.woff") format("woff");
   font-display: swap;
 }
-
 
 .font-grotesk-regular {
-  font-family: 'HKGrotesk-Regular';
+  font-family: HKGrotesk-Regular, serif;
 }
 
 .font-grotesk-bold {
-  font-family: 'HKGrotesk-Bold';
+  font-family: HKGrotesk-Bold, serif;
 }
 
 .bg-odd-hero {
-  background-image: url('./static/odd-bg.png');
+  background-image: url("./static/odd-bg.png");
 }
