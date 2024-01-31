@@ -19,7 +19,7 @@ on:
       - 'src/**/*.js'
 
 env:
-  NODE_VERSION: 18
+  NODE_VERSION: 20
 
 jobs:
   lint-js:
@@ -27,10 +27,10 @@ jobs:
 
     steps:
       - name: Clone repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Install latest nodejs
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
           node-version: ${{ env.NODE_VERSION }}
 
