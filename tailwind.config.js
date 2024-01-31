@@ -9,6 +9,7 @@ module.exports = {
         'oddlightblue': '#00d1ff',
         'oddpurple': '#85abfd',
         'oddlime': '#dbfe55',
+        'oddlightlime': '#f2fbc4',
         'oddmagenta': '#db95f7',
         'odddarkgray': '#1a1a1a',
       }
