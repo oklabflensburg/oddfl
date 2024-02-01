@@ -1,6 +1,7 @@
 .parcel-cache/
 node_modules/
 .DS_Store/
+__MACOSX/
 coverage/
 venv/
 dist/

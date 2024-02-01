@@ -5,13 +5,13 @@ module.exports = {
     extend: {
       colors: {
         'oddblue': '#003c9e',
-        'oddlightgreen': '#b0ed82',
+        'oddlightgreen': '#f2fBe6',
         'oddlightblue': '#00d1ff',
         'oddpurple': '#85abfd',
         'oddlime': '#dbfe55',
         'oddlightlime': '#f2fbc4',
         'oddmagenta': '#db95f7',
-        'odddarkgray': '#1a1a1a',
+        'odddarkgray': '#1a1a1a'
       }
     },
   },
