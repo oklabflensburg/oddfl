@@ -13,6 +13,12 @@ devDependencies:
   '@parcel/config-default':
     specifier: ^2.11.0
     version: 2.11.0(@parcel/core@2.11.0)(postcss@8.4.33)
+  '@parcel/packager-raw-url':
+    specifier: 2.11.0
+    version: 2.11.0(@parcel/core@2.11.0)
+  '@parcel/transformer-jsonld':
+    specifier: 2.11.0
+    version: 2.11.0(@parcel/core@2.11.0)
   '@parcel/transformer-raw':
     specifier: ^2.11.0
     version: 2.11.0(@parcel/core@2.11.0)
@@ -631,6 +637,16 @@ packages:
     transitivePeerDependencies:
       - '@parcel/core'
 
+  /@parcel/packager-raw-url@2.11.0(@parcel/core@2.11.0):
+    resolution: {integrity: sha512-CAa+zTXRotlAgb0eRg//NBVaXRsomWowl7weWeOgRDCq80gqPLAli9k5N9l+048gBiY+OORRtMRM32QgO59tfg==}
+    engines: {node: '>= 12.0.0', parcel: ^2.11.0}
+    dependencies:
+      '@parcel/plugin': 2.11.0(@parcel/core@2.11.0)
+      '@parcel/utils': 2.11.0
+    transitivePeerDependencies:
+      - '@parcel/core'
+    dev: true
+
   /@parcel/packager-raw@2.11.0(@parcel/core@2.11.0):
     resolution: {integrity: sha512-2/0JQ8DZrz7cVNXwD6OYoUUtSSnlr4dsz8ZkpFDKsBJhvMHtC78Sq+1EDixDGOMiUcalSEjNsoHtkpq9uNh+Xw==}
     engines: {node: '>= 12.0.0', parcel: ^2.11.0}
@@ -853,6 +869,17 @@ packages:
       json5: 2.2.3
     transitivePeerDependencies:
       - '@parcel/core'
+
+  /@parcel/transformer-jsonld@2.11.0(@parcel/core@2.11.0):
+    resolution: {integrity: sha512-4VNgXoBFqZTKK+ToE+ZAu437ZzgOyF22vMAPlBEGhM+Lk9IqxZNAvt8uPDC4rRA7+gwD8RWdcncFCFmrDG4uCQ==}
+    engines: {node: '>= 12.0.0', parcel: ^2.11.0}
+    dependencies:
+      '@parcel/plugin': 2.11.0(@parcel/core@2.11.0)
+      '@parcel/types': 2.11.0(@parcel/core@2.11.0)
+      json5: 2.2.3
+    transitivePeerDependencies:
+      - '@parcel/core'
+    dev: true
 
   /@parcel/transformer-postcss@2.11.0(@parcel/core@2.11.0):
     resolution: {integrity: sha512-Ugy8XHBaUptGotsvwzq7gPCvkCopTIqqZ0JZ40Jmy9slGms8wnx06pNHA1Be/RcJwkJ2TbSu+7ncZdgmP5x5GQ==}
