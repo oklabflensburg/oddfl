@@ -12,7 +12,7 @@
     "lint": "pnpm run lint:js && pnpm run lint:css && pnpm run lint:html"
   },
   "staticFiles": {
-    "staticPath": "static"
+    "staticPath": "src/static"
   },
   "dependencies": {
     "parcel": "^2.11.0"
@@ -24,6 +24,7 @@
     "@parcel/transformer-raw": "^2.11.0",
     "eslint": "^8.56.0",
     "htmlhint": "^1.1.4",
+    "parcel-reporter-static-files-copy": "^1.5.3",
     "postcss": "^8.4.33",
     "stylelint": "^16.2.0",
     "stylelint-config-standard": "^36.0.0",

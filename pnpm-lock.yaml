@@ -28,6 +28,9 @@ devDependencies:
   htmlhint:
     specifier: ^1.1.4
     version: 1.1.4
+  parcel-reporter-static-files-copy:
+    specifier: ^1.5.3
+    version: 1.5.3(@parcel/core@2.11.0)
   postcss:
     specifier: ^8.4.33
     version: 8.4.33
@@ -2516,6 +2519,15 @@ packages:
     engines: {node: '>=10'}
     dependencies:
       p-limit: 3.1.0
+    dev: true
+
+  /parcel-reporter-static-files-copy@1.5.3(@parcel/core@2.11.0):
+    resolution: {integrity: sha512-Ukq2SyJYn3GFIPCLamXuQ+2t+0j54llujjOUoRjtmVvfsuGnJDEpMznADeIoKuQDvy0jpxtWzWkQvxqI/j+U4A==}
+    engines: {parcel: ^2.0.0-beta.1}
+    dependencies:
+      '@parcel/plugin': 2.11.0(@parcel/core@2.11.0)
+    transitivePeerDependencies:
+      - '@parcel/core'
     dev: true
 
   /parcel@2.11.0(postcss@8.4.33):
