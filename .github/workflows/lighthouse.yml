@@ -9,6 +9,6 @@ jobs:
         uses: treosh/lighthouse-ci-action@v10
         with:
           urls: |
-            https://opendataday.oklabflensburg.de
+            https://opendataday-flensburg.de
           uploadArtifacts: false
           temporaryPublicStorage: true

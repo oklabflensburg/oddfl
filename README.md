@@ -53,7 +53,7 @@ To deploy your site, open nginx config on your remote machine and add this lines
 server {
     # listen 443 ssl http2;
     # listen [::]:443 ssl http2;
-    server_name opendataday.oklabflensburg.de;
+    server_name opendataday-flensburg.de;
 
     charset utf-8;
 
