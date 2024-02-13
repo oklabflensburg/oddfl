@@ -7,7 +7,7 @@
 
 Website für den Open Data Day 2024 in Flensburg basierend auf TailwindCSS und gebaut mit Parcel.
 
-![Screenshot Open Data Day Website](https://raw.githubusercontent.com/oklabflensburg/oddfl/main/screenshot_oddfl_2024.jpg)
+![Screenshot Open Data Day Website](https://raw.githubusercontent.com/oklabflensburg/oddfl/main/screenshot_opendataday_flensburg.jpg)
 
 
 
