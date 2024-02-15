@@ -1,14 +1,12 @@
+name: Run codeql
+
 on:
   push:
     paths:
      - 'src/**/*.js'
-     - 'src/**/*.py'
   pull_request:
     paths:
      - 'src/**/*.js'
-     - 'src/**/*.py'
-  schedule:
-    - cron: '37 14 * * 4'
 
 jobs:
   analyze:
@@ -24,13 +22,11 @@ jobs:
       matrix:
         language:
          - 'javascript'
-         - 'python'
 
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
 
-    # Initializes the CodeQL tools for scanning.
     - name: Initialize CodeQL
       uses: github/codeql-action/init@v2
       with:

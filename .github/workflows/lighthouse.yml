@@ -1,8 +1,21 @@
 name: Lighthouse CI
-on: push
+
+on:
+  push:
+    paths:
+     - 'src/**/*.js'
+     - 'src/**/*.css'
+     - 'src/**/*.html'
+  pull_request:
+    paths:
+     - 'src/**/*.js'
+     - 'src/**/*.css'
+     - 'src/**/*.html'
+
 jobs:
   lighthouse:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: Audit URLs using Lighthouse
