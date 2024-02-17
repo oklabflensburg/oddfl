@@ -1,8 +1,9 @@
 # Open Data Day 2024
 
-[![Lighthouse CI](https://github.com/oklabflensburg/oddfl/actions/workflows/lighthouse.yml/badge.svg)](https://github.com/oklabflensburg/oddfl/actions/workflows/lighthouse.yml)
-[![Lint javascript files](https://github.com/oklabflensburg/oddfl/actions/workflows/lint-js.yml/badge.svg)](https://github.com/oklabflensburg/oddfl/actions/workflows/lint-js.yml)
+[![Lint css files](https://github.com/oklabflensburg/oddfl/actions/workflows/lint-css.yml/badge.svg)](https://github.com/oklabflensburg/oddfl/actions/workflows/lint-css.yml)
 [![Lint html files](https://github.com/oklabflensburg/oddfl/actions/workflows/lint-html.yml/badge.svg)](https://github.com/oklabflensburg/oddfl/actions/workflows/lint-html.yml)
+[![Lint js files](https://github.com/oklabflensburg/oddfl/actions/workflows/lint-js.yml/badge.svg)](https://github.com/oklabflensburg/oddfl/actions/workflows/lint-js.yml)
+[![Lighthouse CI](https://github.com/oklabflensburg/oddfl/actions/workflows/lighthouse.yml/badge.svg)](https://github.com/oklabflensburg/oddfl/actions/workflows/lighthouse.yml)
 
 
 Website für den Open Data Day 2024 in Flensburg basierend auf TailwindCSS und gebaut mit Parcel.

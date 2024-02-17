@@ -1,4 +1,4 @@
-name: Lint js files
+name: Lint css files
 
 on:
   push:
@@ -6,15 +6,15 @@ on:
       - 'dependabot/**'
     paths:
       - 'package.json'
-      - '.eslintignore'
-      - '.eslintrc.yaml'
-      - 'src/**/*.js'
+      - '.stylelintignore'
+      - '.stylelintrc.json'
+      - 'src/**/*.css'
   pull_request:
     paths:
       - 'package.json'
-      - '.eslintignore'
-      - '.eslintrc.yaml'
-      - 'src/**/*.js'
+      - '.stylelintignore'
+      - '.stylelintrc.json'
+      - 'src/**/*.css'
 
 env:
   NODE_VERSION: 20
@@ -39,4 +39,4 @@ jobs:
         run: pnpm install
 
       - name: Run lint specified in package.json
-        run: pnpm run lint:js
+        run: pnpm run lint:css
