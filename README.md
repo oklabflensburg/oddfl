@@ -1,4 +1,4 @@
-# Open Data Day 2024
+# Open Data Day 2025
 
 [![Lint css files](https://github.com/oklabflensburg/oddfl/actions/workflows/lint-css.yml/badge.svg)](https://github.com/oklabflensburg/oddfl/actions/workflows/lint-css.yml)
 [![Lint html files](https://github.com/oklabflensburg/oddfl/actions/workflows/lint-html.yml/badge.svg)](https://github.com/oklabflensburg/oddfl/actions/workflows/lint-html.yml)
@@ -6,7 +6,7 @@
 [![Lighthouse CI](https://github.com/oklabflensburg/oddfl/actions/workflows/lighthouse.yml/badge.svg)](https://github.com/oklabflensburg/oddfl/actions/workflows/lighthouse.yml)
 
 
-Website für den Open Data Day 2024 in Flensburg basierend auf TailwindCSS und gebaut mit Parcel.
+Website für den Open Data Day am 1. März 2025 in Flensburg basierend auf TailwindCSS und gebaut mit Parcel.
 
 ![Screenshot Open Data Day Website](https://raw.githubusercontent.com/oklabflensburg/oddfl/main/screenshot_opendataday_flensburg.jpg)
 

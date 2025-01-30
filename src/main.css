@@ -5,16 +5,16 @@
 @font-face {
   font-family: HKGrotesk-Regular;
   src:
-    url("./static/fonts/grotesk/HKGrotesk-Regular.woff2") format("woff2"),
-    url("./static/fonts/grotesk/HKGrotesk-Regular.woff") format("woff");
+    url("../static/fonts/grotesk/HKGrotesk-Regular.woff2") format("woff2"),
+    url("../static/fonts/grotesk/HKGrotesk-Regular.woff") format("woff");
   font-display: swap;
 }
 
 @font-face {
   font-family: HKGrotesk-Bold;
   src:
-    url("./static/fonts/grotesk/HKGrotesk-Bold.woff2") format("woff2"),
-    url("./static/fonts/grotesk/HKGrotesk-Bold.woff") format("woff");
+    url("../static/fonts/grotesk/HKGrotesk-Bold.woff2") format("woff2"),
+    url("../static/fonts/grotesk/HKGrotesk-Bold.woff") format("woff");
   font-display: swap;
 }
 
@@ -27,7 +27,7 @@
 }
 
 .bg-odd-hero {
-  background-image: url("./static/oddfl24-bg.webp");
+  background-image: url("../static/oddfl24-bg.webp");
 }
 
 .list-circle {

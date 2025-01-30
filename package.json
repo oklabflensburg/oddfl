@@ -2,6 +2,9 @@
   "name": "opendataday-flensburg",
   "source": "src/index.html",
   "browserslist": "> 0.5%, last 2 versions, not dead",
+  "staticFiles": {
+    "staticPath": "static"
+  },
   "scripts": {
     "start": "parcel",
     "build": "parcel build",
@@ -10,9 +13,6 @@
     "lint:html": "pnpm run htmlhint",
     "lint:css": "pnpm exec stylelint \"src/**/*.css\"",
     "lint": "pnpm run lint:js && pnpm run lint:css && pnpm run lint:html"
-  },
-  "staticFiles": {
-    "staticPath": "src/static"
   },
   "dependencies": {
     "parcel": "^2.13.3"
@@ -24,6 +24,7 @@
     "@parcel/packager-raw-url": "2.13.3",
     "@parcel/transformer-jsonld": "2.13.3",
     "@parcel/transformer-raw": "^2.13.3",
+    "@parcel/transformer-webmanifest": "2.13.3",
     "eslint": "^9.19.0",
     "globals": "^15.14.0",
     "htmlhint": "^1.1.4",
