@@ -1,0 +1,5 @@
+            <span class="flex justify-center">
+                <a href="#" class="bg-odddarkgray inline-block">
+                    <img class="w-32 md:w-56 h-auto p-3" src="/static/odd-logo.svg" alt="Open Data Day 2025">
+                </a>
+            </span>
