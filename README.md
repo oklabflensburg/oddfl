@@ -8,7 +8,7 @@
 
 Website für den Open Data Day am 1. März 2025 in Flensburg basierend auf TailwindCSS und gebaut mit Parcel.
 
-![Screenshot Open Data Day Website](https://raw.githubusercontent.com/oklabflensburg/oddfl/main/screenshot_opendataday_flensburg.jpg)
+![Screenshot Open Data Day Website](https://raw.githubusercontent.com/oklabflensburg/oddfl/main/screenshot_opendataday_flensburg.webp)
 
 
 
