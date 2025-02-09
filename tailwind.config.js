@@ -5,6 +5,7 @@ module.exports = {
     extend: {
       colors: {
         'oddblue': '#003c9e',
+        'odddarkgreen': '#388ba4',
         'oddlightgreen': '#f2fBe6',
         'oddlightblue': '#00d1ff',
         'oddpurple': '#85abfd',
