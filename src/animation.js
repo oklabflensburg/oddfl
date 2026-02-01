@@ -9,7 +9,7 @@ function start_animation() {
   const centerX = width / 2
   const centerY = height / 2
 
-  const svg = document.getElementById('scene')
+  const svg = document.getElementById('hero-animation')
   svg.setAttribute('viewBox', `0 0 ${width} ${height}`)
   svg.setAttribute('width', width)
   svg.setAttribute('height', height)
