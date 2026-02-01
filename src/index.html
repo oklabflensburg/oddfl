@@ -15,6 +15,8 @@
     <link rel="manifest" href="/static/site.webmanifest">
     <link rel="shortcut icon" href="/static/favicon.ico">
 
+    <script src="./animation.js"></script>
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -83,20 +85,30 @@
 </head>
 <body class="bg-gray-200 font-grotesk-regular">
     <div class="font-grotesk-bold h-screen flex items-center justify-center bg-cover bg-no-repeat bg-center bg-odd-hero relative">
-        <div class="text-center">
-            <span class="flex justify-center">
-                <a href="#" class="inline-block">
-                    <img class="w-56 md:w-96 h-auto p-3" src="/static/oddfl26_text.svg" alt="Open Data Day 2026">
-                </a>
-            </span>
+      <svg
+        id="scene"
+        viewBox="0 0 1920 1080"
+        preserveAspectRatio="xMidYMid slice"
+        class="absolute inset-0 w-full h-full z-0"
+      ></svg>
 
-            <br>
-            <a href="#about" class="inline-block px-6 py-3 text-odddarkgray" aria-label="Mehr über den Open Data Day">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 768 768" class="block" width="68" height="68" fill="currentColor">
-                    <path d="M237 250.5l147 147 147-147 45 45-192 192-192-192z" />
-                </svg>
-            </a>
-        </div>
+      <!-- Centered overlay SVG -->
+      <div class="absolute inset-0 flex flex-col items-center justify-center z-10 text-center">
+        <a href="#" class="inline-block mb-6">
+          <img
+            class="w-[90vw] max-w-[1024px] h-auto p-3"
+            src="/static/oddfl26_text.svg"
+            alt="Open Data Day 2026"
+          >
+        </a>
+
+        <a href="#about" aria-label="Mehr über den Open Data Day">
+          <svg xmlns="http://www.w3.org/2000/svg" class="inline-block p-0 m-0 border-0 bg-transparent" viewBox="0 0 768 768" width="68" height="68" fill="black">
+            <path d="M237 250.5l147 147 147-147 45 45-192 192-192-192z" />
+          </svg>
+        </a>
+      </div>
+
     </div>
 
     <div id="about" class="bg-white">
@@ -380,4 +392,8 @@ Der Vortrag gibt einen Einblick, welche Daten im KBA entstehen, wie sie aufberei
         </div>
     </footer>
 </body>
+
+<script>
+  start_animation()
+</script>
 </html>

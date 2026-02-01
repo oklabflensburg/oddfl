@@ -27,7 +27,6 @@
 }
 
 .bg-odd-hero {
-  background-image: url("../static/oddfl24-bg.webp");
 }
 
 .list-circle {
@@ -76,4 +75,15 @@
 
 .list-upper-alpha {
   list-style-type: upper-alpha;
+}
+
+svg {
+  width: 100%;
+  height: 100%;
+  background-color: #4ddfff;
+  color: rgba(224, 119, 255, 0.5);
+}
+
+.form-2 {
+  color: rgba(228, 255, 54, 0.53);
 }
