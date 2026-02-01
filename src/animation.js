@@ -86,3 +86,5 @@ function start_animation() {
 
   animate() // start the animation
 }
+
+window.addEventListener('DOMContentLoaded', start_animation)
